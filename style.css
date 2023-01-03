@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url("https://www.denofgeek.com/wp-content/uploads/2020/04/Rick-and-Morty-Zoom-Backgrounds-Garage-1.png?fit=1920%2C1080");
+    background-size:auto;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+}
+
+.container > p{
+    color:black;
+    opacity:1;
+    font-size:25px;
+    display:inline-block;
+}
+
+.data{
+    color:green;
+}
+
+h1 {
+    font-size:40px;
+    color:#BBE0F2;
+    -webkit-text-stroke: 1px green;
+}
+
+.container {
+    background-color:lightgrey;
+    opacity:1;
+    width:30rem;
+    height:750px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:10px;
+    opacity: 0.95;
+    transform:translate(0,10%);
+    font-family: 'Creepster', cursive;
+}
+#myBtn{
+    margin-top:10px;
+    width:120px;
+    height:40px;
+    font-size:20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius:10px;
+    background-color:tomato;
+    color:black;
+    border:none;
+    cursor:pointer;
+    transition: background-color 0.5s ease-in;
+}
+
+#myBtn:hover{
+    transform:scale(1.1);
+    background-color:black;
+    color:tomato;
+}
+
+#image {
+    max-width:100px;
+    max-height:100px;
+}
